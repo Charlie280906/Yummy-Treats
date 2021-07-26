@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="application/javascript">
+        (function(b,o,n,g,s,r,c){if(b[s])return;b[s]={};b[s].scriptToken="XzE5Mjc3NjEwMTE";b[s].callsQueue=[];b[s].api=function(){b[s].callsQueue.push(arguments);};r=o.createElement(n);c=o.getElementsByTagName(n)[0];r.async=1;r.src=g;r.id=s+n;c.parentNode.insertBefore(r,c);})(window,document,"script","https://cdn.oribi.io/XzE5Mjc3NjEwMTE/oribi.js","ORIBI");
+      </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+    <title>Yummy Treats</title>
 </head>
 <body>
-    hello world
+    <header>
+        <div class="logo">Yummy Treats</div>
+        <div class="toggle"></div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="HTML/prices.html">Prices</a></li>
+                <li><a href="HTML/products.html">Our Products</a></li>
+                <li><a href="HTML/contact.html">Contact Us</a></li>
+            </ul>
+            <div class="social-bar">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/YummyTreats5" target="_blank">
+                            <img src="Images/facebook.png" alt="Facebook logo" width="50px" height="50px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/YummyTreats5" target="_blank">
+                            <img src="Images/twitter.png" alt="Twitter logo" width="50px" height="50px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/yummy_treats_5/" target="_blank">
+                            <img src="Images/instagram.png" alt="Instagram logo" width="50px" height="50px">
+                        </a>
+                    </li>
+                </ul>
+                <a href="mailto:ruth@yummy-treats.com" target="_blank" class="mail-icon">
+                    <img src="Images/mail.png" alt="mail icon" width="50px" height="50px">
+                </a>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"><br><br>
+            <label for="email">Email adress:</label>
+            <input type="text" id="email" name="email" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';"><br><br>
+            <label for="comment">What would you like to contact us about?</label><br><br>
+            <input type="text" id="comment" name="comment" onkeypress="this.style.width = ((this.value.length + 1) * 8) + 'px';">
+          </form>
+    </footer>
+    <script src="JS/script.js"></script>
 </body>
 </html>
