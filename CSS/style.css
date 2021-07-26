@@ -157,6 +157,24 @@ section.home {
   text-align: center;
 }
 
+.products .product h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.products .product {
+  padding: 30px;
+  background: var(--primary-color);
+}
+
+.products .product:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
 footer {
   margin-top: 100px;
   background-color: var(--primary-color);
